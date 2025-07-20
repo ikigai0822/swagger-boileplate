@@ -1,0 +1,18 @@
+openapi: 3.0.0
+paths:
+  /greet:
+    get:
+      responses:
+        '200':
+          description: A greeting response
+          content:
+            application/json:
+              examples:
+                AliceExample:
+                  summary: Greeting Alice
+                  value:
+                    greeting: "Hello, Alice!"
+                BobExample:
+                  summary: Greeting Bob
+                  value:
+                    greeting: "Hello, Bob!"

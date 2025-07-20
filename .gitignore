@@ -1,0 +1,35 @@
+# pipx environments (in case local virtualenvs are created here)
+pipx_env/
+pipx_venv_*/
+
+# pipx temp files (just in case someone installs locally)
+pipx_logs/
+pipx_cache/
+
+# Python standard ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Common virtualenv folders
+.venv/
+env/
+ENV/
+venv/
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+
+# Packaging artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+pip-log.txt
+
+# OS junk
+.DS_Store
+Thumbs.db
